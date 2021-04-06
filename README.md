@@ -7,3 +7,4 @@ Furthermore into topic, It was a great experience for a ML Engineer like me to d
 1. Calculate the individual products total sum of quantity.
 2. Calculate the total amount of products based on the quantity.
 
+Here one can access this link [Groceries List](http://127.0.0.1:5500/index.html)
