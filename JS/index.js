@@ -6,9 +6,9 @@ function getit() {
             for (i = 0; i < itemCount; i++) {
                 items[i] = {
 
-                    name: prompt("Product Name"),
-                    price: prompt("Price of the product"),
-                    qty: prompt("Quantity of the product")
+                    name: prompt("Product Name?"),
+                    price: prompt("Price of the product(in Euros)?"),
+                    qty: prompt("Quantity of the product?")
 
                 }
                 
@@ -22,9 +22,9 @@ function getit() {
                 allitems = allitems + subtotal;
                 result.innerHTML += "Name of the Product: " + items[i].name + "<br/>";
                 result.innerHTML += "Total Quantity: " + items[i].qty + "<br/>";
-                result.innerHTML += "Amount of the product: " + subtotal + "<br/>";
+                result.innerHTML += "Amount of the product: " + subtotal + "Euros" + "<br/>";
                 //result.innerHTML += "Sub total: " + total + "<br/>";
-                if (i == (itemCount - 1)) { result.innerHTML += "Total amount: " + allitems + "<br/>"; }
+                if (i == (itemCount - 1)) { result.innerHTML += "Total amount: " + allitems + "Euros" +"<br/>"; }
                 
             }
         }
